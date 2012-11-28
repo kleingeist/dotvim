@@ -6,7 +6,7 @@ Kommandos
 
 * \<Leader> = "," (Standardmäßig "\")
 * \<Leader>ig: grafisch Indentation Tiefe anzeigen
-* Folding: za: toggle | zo: open | zc: close | zR: open all
+* Folding: za: toggle | zo: open | zc: close | zR: open all | zi: toggle foldenable
 
 
 
