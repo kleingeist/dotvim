@@ -3,6 +3,12 @@ call pathogen#infect()
 syntax on
 filetype plugin indent on
 
+
+" Solarized Theme
+set background=dark
+colorscheme solarized
+
+
 " old Config
 set autoindent
 set smartindent
