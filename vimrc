@@ -5,8 +5,8 @@ filetype plugin indent on
 
 
 " Solarized Theme
-set background=dark
-colorscheme solarized
+" set background=dark
+" colorscheme solarized
 
 
 " old Config
@@ -29,7 +29,7 @@ nnoremap <F5> :GundoToggle<CR>
 " ---------------------------------------------------------------------------
 
 let mapleader = ","
-let g:mapleader = ","
+let maplocalleader = ",,"
 "set modelines=0 " disables set cmd
 set history=1000
 set nobackup
