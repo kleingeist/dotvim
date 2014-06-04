@@ -3,20 +3,6 @@ call pathogen#infect()
 syntax on
 filetype plugin indent on
 
-
-" Solarized Theme
-" set background=dark
-" colorscheme solarized
-
-
-" old Config
-set autoindent
-set smartindent
-set nocompatible
-
-" Press F5 to toggle GUndo tree
-nnoremap <F5> :GundoToggle<CR>
-
 " Vimfiles Stuff
 " https://github.com/crahles/vimfiles/blob/master/vimrc 
 
@@ -79,6 +65,24 @@ let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size = 1
 
 " ---------------------------------------------------------------------------
+" Themes
+" ---------------------------------------------------------------------------
+
+
+" Solarized Theme
+" set background=dark
+" colorscheme solarized
+
+
+if has("gui_running")
+  set background=light
+else
+  set background=dark
+endif
+
+
+
+" ---------------------------------------------------------------------------
 " Text Formatting
 " ---------------------------------------------------------------------------
 
@@ -118,6 +122,10 @@ set incsearch
 set showmatch
 set hlsearch
 " set gdefault " global substitution by default
+
+" Press F5 to toggle GUndo tree
+nnoremap <F5> :GundoToggle<CR>
+
 
 " ---------------------------------------------------------------------------
 " GnomeTerminal
