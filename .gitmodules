@@ -56,3 +56,11 @@
 [submodule "bundle/ctrlp.vim"]
 	path = bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
+[submodule "bundle/ShowTrailingWhitespace"]
+	path = bundle/ShowTrailingWhitespace
+	url = https://github.com/vim-scripts/ShowTrailingWhitespace.git
+	ignore = dirty
+[submodule "bundle/DeleteTrailingWhitespace"]
+	path = bundle/DeleteTrailingWhitespace
+	url = https://github.com/vim-scripts/DeleteTrailingWhitespace.git
+	ignore = dirty

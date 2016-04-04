@@ -4,7 +4,7 @@ syntax on
 filetype plugin indent on
 
 " Vimfiles Stuff
-" https://github.com/crahles/vimfiles/blob/master/vimrc 
+" https://github.com/crahles/vimfiles/blob/master/vimrc
 
 "let g:AutoClosePairs = {'(': ')', '{': '}', '[': ']', '"': '"', "'": "'", '#{': '}'}
 "let g:AutoCloseProtectedRegions = ["Character"]
@@ -21,7 +21,7 @@ set history=1000
 set nobackup
 set nowritebackup
 " set noswapfile
-syntax enable 
+syntax enable
 set autoread
 
 " ---------------------------------------------------------------------------
@@ -165,7 +165,7 @@ autocmd FileType *
     " \   call SuperTabSetDefaultCompletionType('<c-x><c-u>')  |
     \   call SuperTabSetDefaultCompletionType('<c-x><c-k>') |
     \ else |
-    \   call SuperTabSetDefaultCompletionType('<c-x><c-p>') | 
+    \   call SuperTabSetDefaultCompletionType('<c-x><c-p>') |
     \ endif
 
 
@@ -175,4 +175,12 @@ autocmd FileType *
 " ---------------------------------------------------------------------------
 
 let g:vim_markdown_folding_disabled=1
+
+
+" ---------------------------------------------------------------------------
+" Markdown
+" ---------------------------------------------------------------------------
+
+" let g:DeleteTrailingWhitespace = 1
+let g:DeleteTrailingWhitespace_Action = 'delete'
 
