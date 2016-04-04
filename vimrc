@@ -126,6 +126,9 @@ set hlsearch
 " Press F5 to toggle GUndo tree
 nnoremap <F5> :GundoToggle<CR>
 
+" Press CTRl-F12 like in intelliJ to open the tagbar
+nnoremap <C-F12> :TagbarOpenAutoClose<CR>
+
 
 " ---------------------------------------------------------------------------
 " GnomeTerminal
